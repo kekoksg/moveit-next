@@ -6,7 +6,10 @@ export function Profile() {
             <img src="https://github.com/kekoksg.png" alt="Kelvin Souza Gonçalves" />
             <div>
                 <strong>Kelvin S. Gonçalves</strong>
-                <p>Level 1</p>
+                <p>
+                    <img src="icons/level.svg" alt="Level" />
+                    Level 1
+                </p>
             </div>
         </div>
     );
