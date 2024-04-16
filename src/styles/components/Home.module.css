@@ -9,10 +9,15 @@
 }
 
 .container section {
-    flex: 1;
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: center;
+}
 
-    display: grid;
+@media (min-width: 768px) {
+  .container section {
     grid-template-columns: 1fr 1fr;
     gap: 6.25rem;
-    align-content: center;
+  }
 }
