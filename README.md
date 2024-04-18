@@ -4,7 +4,7 @@
 O Moveit é um aplicativo inspirado no método Pomodoro, mas com uma abordagem gamificada. Ele desafia os usuários com exercícios simples de alongamento a cada 25 minutos, ajudando a manter a produtividade durante o trabalho e os estudos. Este projeto foi desenvolvido durante meu aprendizado, com a ajuda da equipe da Rocketseat.
 
 ## Instalação
-Para utilizar o Moveit, você pode acessar o projeto online [aqui](#https://moveit-next-alpha-tan.vercel.app/) ou executá-lo em sua própria máquina utilizando o Node.js. Certifique-se de ter o Node.js instalado e, em seguida, execute o seguinte comando:
+Para utilizar o Moveit, você pode acessar o projeto online [clicando aqui](https://moveit-next-alpha-tan.vercel.app/) ou executá-lo em sua própria máquina utilizando o Node.js. Certifique-se de ter o Node.js instalado e, em seguida, execute o seguinte comando:
 
 ```bash
 npm run dev
