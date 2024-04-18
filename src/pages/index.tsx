@@ -9,6 +9,7 @@ import { ChallengeBox } from "../components/ChallengeBox";
 import styles from '../styles/components/Home.module.css';
 import { CountdownProvider } from '../contexts/CountdownContext';
 import { GetServerSideProps } from 'next';
+import { Corner } from '../components/Corner';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <title>Inicio | moveit</title>
       </Head>
       
+      <Corner />
       <ExperienceBar />
 
       <CountdownProvider>
