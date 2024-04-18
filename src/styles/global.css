@@ -19,8 +19,8 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--text);
+  background-color: #1d1e26;
+  color: #f8f8f2;
 }
 
 @media (max-width: 1080px) {

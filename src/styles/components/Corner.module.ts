@@ -6,8 +6,8 @@ export const CornerContent = styled.div`
   justify-content: center;
 
   a {
-    background: #15407a;
-    color: #fff;
+    background: #ff79c6;
+    color: #282a36;
     display: block;
     font-size: 1rem;
     line-height: 1rem;

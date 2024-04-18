@@ -22,7 +22,7 @@ export const Animation = styled.div`
 `;
 
 export const Container = styled.div`
-  background: #fff;
+  background: #282a36;
   width: 100%;
   max-width: 400px;
   padding: 2rem 3rem;
@@ -35,14 +35,14 @@ export const Container = styled.div`
   header {
     font-size: 8.75rem;
     font-weight: 600;
-    color: #a582db;
+    color: #bd93f9;
     background: url("/icons/levelup.svg") no-repeat center;
     background-size: contain;
   }
 
   p {
     font-size: 1.25rem;
-    color: #1d1e26;
+    color: #f8f8f2;
     margin-top: 0.25rem;
   }
 

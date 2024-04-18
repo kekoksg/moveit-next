@@ -3,7 +3,7 @@
     align-items: center;
     font-family: Rajdhani;
     font-weight: 600;
-    color: var(--title);
+    color: #f8f8f2;
 }
 
 .countdownContainer > div {
@@ -13,11 +13,12 @@
     align-items: center;
     justify-content: space-evenly;
 
-    background: var(--white);
-    box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+    background: #282a36;
     border-radius: 5px;
     font-size: 8.5rem;
     text-align: center;
+
+    color: #f8f8f2;
 }
 
 .countdownContainer > div span {
@@ -25,16 +26,17 @@
 }
 
 .countdownContainer > div span:first-child {
-    border-right: 1px solid #f0f1f3;
+    border-right: 1px solid #1d1e26;
 } 
 
 .countdownContainer > div span:last-child {
-    border-left: 1px solid #f0f1f3;
+    border-left: 1px solid #1d1e26;
 }
 
 .countdownContainer > span {
     font-size: 6.25rem;
     margin: 0.5rem;
+    color: #f8f8f2;
 }
 
 .countdownButton {
@@ -50,8 +52,9 @@
     border: 0;
     border-radius: 5px;
 
-    background: var(--blue);
-    color: var(--white);
+    background: #bd93f9;
+    box-shadow: 0px 4px #6e5294;
+    color: #282a36;
 
     font-size: 1.25rem;
     font-weight: 600;
@@ -60,21 +63,25 @@
 }
 
 .countdownButton:not(:disabled):hover {
-    background: var(--blue-dark);
+    background: #b380f9;
+    box-shadow: 0px 2px #6e5294;
 }
 
 .countdownButtonActive {
-    background: var(--white);
-    color: var(--title);
+    background: #ff5555;
+    color: #282a36;
+    box-shadow: 0px 4px #b33a3a;
 }
 
 .countdownButtonActive:not(:disabled):hover {
-    background: var(--red);
-    color: var(--white);
+    background: #e64c4c;
+    color: #f8f8f2;
+    box-shadow: 0px 2px #b33a3a;
 }
 
 .countdownButton:disabled {
-    background: var(--white);
-    color: var(--text);
+    background: #282a36;
+    color: #ff5555;
+    box-shadow: 0px 4px #44475a;
     cursor: not-allowed;
 }

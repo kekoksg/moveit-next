@@ -16,7 +16,7 @@
 .profileContainer div strong {
     font-size: 1.5rem;
     font-weight: 00;
-    color: var(--title);
+    color: #f8f8f2;
 }
 
 .profileContainer div p {
