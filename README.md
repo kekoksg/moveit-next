@@ -1,34 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Moveit
 
-## Getting Started
+## Descrição
+O Moveit é um aplicativo inspirado no método Pomodoro, mas com uma abordagem gamificada. Ele desafia os usuários com exercícios simples de alongamento a cada 25 minutos, ajudando a manter a produtividade durante o trabalho e os estudos. Este projeto foi desenvolvido durante meu aprendizado, com a ajuda da equipe da Rocketseat.
 
-First, run the development server:
+## Instalação
+Para utilizar o Moveit, você pode acessar o projeto online [aqui](#https://moveit-next-alpha-tan.vercel.app/) ou executá-lo em sua própria máquina utilizando o Node.js. Certifique-se de ter o Node.js instalado e, em seguida, execute o seguinte comando:
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Como usar
+O Moveit pode ser usado durante suas sessões diárias de estudo, trabalho ou qualquer atividade que você realize na frente do computador. O aplicativo sinaliza o momento para fazer pausas e realizar alongamentos, ajudando a manter uma rotina saudável.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Tecnologias Utilizadas
+- **Next.js**: Framework React para construção de interfaces web.
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **TypeScript**: Linguagem de programação para desenvolvimento de aplicações web.
+- **ESLint**: Ferramenta de análise estática de código para identificar e relatar padrões problemáticos no código JavaScript.
+- **JS-Cookie**: Para salvar os dados do usuário nos cookies, garantindo uma experiência personalizada.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Capturas de Tela
+![Countdown](Countdown.png)
+![Challenge](Challenge.png)
+![LevelUp](LevelUp.png)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
