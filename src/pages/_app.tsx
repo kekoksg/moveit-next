@@ -3,9 +3,14 @@ import { ChallengesProvider } from '../contexts/ChallengesContext'
 import '../styles/global.css'
 
 function MyApp({ Component, pageProps }) {
+  const { level, currentExperience, challengesCompleted } = pageProps;
 
   return (
-    <ChallengesProvider>
+    <ChallengesProvider
+      level={level}
+      currentExperience={currentExperience}
+      challengesCompleted={challengesCompleted}
+      >
       <Component {...pageProps} />
     </ChallengesProvider>
   )

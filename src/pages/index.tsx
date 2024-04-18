@@ -8,6 +8,7 @@ import { ChallengeBox } from "../components/ChallengeBox";
 
 import styles from '../styles/components/Home.module.css';
 import { CountdownProvider } from '../contexts/CountdownContext';
+import { GetServerSideProps } from 'next';
 
 export default function Home() {
   return (
@@ -33,3 +34,16 @@ export default function Home() {
     </div>
   );
 }
+
+  // Pegando dados do cookies
+export const getServerSideProps: GetServerSideProps = async (context) => {
+  const { level, currentExperience, challengesCompleted } = context.req.cookies;
+
+  return {
+    props: {
+      level: Number(level),
+      currentExperience: Number(currentExperience),
+      challengesCompleted: Number(challengesCompleted),
+    },
+  };
+};
